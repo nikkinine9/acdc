@@ -25,6 +25,7 @@ section {
 
 h1 {
     text-align: center;
+    font-size: 2rem;
 }
 
 .banner {
@@ -37,9 +38,13 @@ h1 {
 .banner h3 {
     color: white;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: uppercase;
     text-shadow: grey 3px 3px 3px;
+    text-align: center;
+}
+
+.container1 {
     text-align: center;
 }
 
@@ -73,7 +78,7 @@ p {
 }
 
 .the-video {
-    float: right;
+   float: right;
    width: 560px;
    height: 315px;
 }
