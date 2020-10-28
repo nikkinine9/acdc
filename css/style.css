@@ -1,108 +1,129 @@
+#card-content {
+  display: -ms-grid;
+  display: grid;
+}
+
+#card-content h3 {
+  font-weight: bold;
+  color: orange;
+}
+
+#card-content:hover {
+  -webkit-box-shadow: 5px 5px 7px grey;
+          box-shadow: 5px 5px 7px grey;
+  border: 5px solid white;
+  -webkit-box-shadow: grey 3px 3px 5px;
+          box-shadow: grey 3px 3px 5px;
+  border-radius: 8px;
+}
+
 body {
-    background-color: red;
-    font-family: sans-serif;
-    line-height: 1.4;
+  background-color: darkred;
+  font-family: sans-serif;
+  line-height: 1.4;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
-    background-color: red;
-    padding: 1rem;
+  background-color: red;
+  padding: 1rem;
 }
 
 .logo {
-    width: 300px;
+  width: 300px;
 }
 
 section {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 h1 {
-    text-align: center;
-    font-size: 2rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .banner {
-    background-image: url('../images/acdcbackground.jpg');
-    background-size: cover;
-    background-position: top center;
-    min-height: 200px;
+  background-image: url("../images/acdcbackground.jpg");
+  background-size: cover;
+  background-position: top center;
+  min-height: 200px;
 }
 
 .banner h3 {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
-    text-transform: uppercase;
-    text-shadow: grey 3px 3px 3px;
-    text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: grey 3px 3px 3px;
+  text-align: center;
 }
 
 .container1 {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .about {
-    color: white;
-    font-size: 1.25rem;
+  color: white;
+  font-size: 1.25rem;
 }
 
 .band-photo {
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    border: 18px solid black;
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 18px solid black;
 }
 
 .music-video {
-    background-color:orangered;
-    text-align: center;
-    color: white;
+  background-color: orangered;
+  text-align: center;
+  color: white;
 }
 
 .the-video {
-   float: right;
-   width: 560px;
-   height: 315px;
+  float: right;
+  width: 560px;
+  height: 315px;
 }
 
 .clr {
-    clear: both;
-    width: 100%
+  clear: both;
+  width: 100%;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;padding: 0.5rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 a {
-    color: goldenrod;
+  color: goldenrod;
 }
 
 a:hover {
-    color: gold;
+  color: gold;
 }
 
 a:active {
-    color: yellow;
+  color: yellow;
 }
-
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+@mixin floating-animation() {
+    transition: box-shadow 0.25s ease-in-out;
+    box-shadow: 5px 5px 7px grey;
+}
+
+@mixin fancy-borders ($thickness) {
+    border: $thickness solid white;
+    box-shadow: grey 3px 3px 5px;
+    border-radius: 8px;
+}
